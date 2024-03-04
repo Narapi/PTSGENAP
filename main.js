@@ -9,17 +9,16 @@ import {
   query,
   orderBy
 } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
-
 const firebaseConfig = {
-  apiKey: "AIzaSyCksetmQe_ec2BH6g5MKqQU_1K1U6htmww",
-  authDomain: "data-7d32f.firebaseapp.com",
-  projectId: "data-7d32f",
-  storageBucket: "data-7d32f.appspot.com",
-  messagingSenderId: "156748846014",
-  appId: "1:156748846014:web:4269883b14bdb400b2dfef",
-  measurementId: "G-W3SBB85TF1"
-};
-
+  apiKey: "AIzaSyAQhFoRf_4ecIp-b7pclOk29ncMXpjzELE",
+  authDomain: "insan-cemerlang-58879.firebaseapp.com",
+  projectId: "insan-cemerlang-58879",
+  storageBucket: "insan-cemerlang-58879.appspot.com",
+  messagingSenderId: "704155633968",
+  appId: "1:704155633968:web:42d7eeff6bb87ae7af60f5",
+  measurementId: "G-PPMEB42GMS"
+  }
+  
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
